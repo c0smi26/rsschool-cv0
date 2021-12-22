@@ -4,9 +4,9 @@
 <p>Discord:Arman(@c0smi26)</p>
 <p>email:arman.wap3@gmail.com</p>
 <h1>Education</h1>
-<p>College of Radio Electronics named after P.N. Yablochkova (2016-2020)</p><br>
+<p>College of Radio Electronics named after P.N. Yablochkova (2016-2020)</p>
 <p>Specialty: Computer systems and complexes</p><br>
-<p>Saratov State Technical University named after Yu.A. Gagarin (2021-..)</p><br>
+<p>Saratov State Technical University named after Yu.A. Gagarin (2021-..)</p>
 <p>Specialty: Information systems and technologies</p>
 <h1>Code example:</h1>
 <pre><code>
