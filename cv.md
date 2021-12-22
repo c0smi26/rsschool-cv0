@@ -9,7 +9,9 @@
 <p>Saratov State Technical University named after Yu.A. Gagarin (2021-..)</p><br>
 <p>Specialty: Information systems and technologies</p>
 <h1>Code example:</h1>
-<p><code>function greet ()  {
- return 'hello world!' 
-}</code></p>
+<p><code>
+    function greet ()  {<br>
+        return 'hello world!'<br> 
+    }<br>
+</code></p>
 <h1>Estimated English level:A1</h1>
