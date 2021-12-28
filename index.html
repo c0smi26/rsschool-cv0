@@ -4,37 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="111.ico" />
-    <title>rsschool-cv-html</title>
+    <link rel="icon" href="./image/logo.ico" />
+
+    <title>CV</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <img src="ara.jpg" alt="photo" width="300" height="250" />
-      <h1>Baymagambetov Arman</h1>
-    </div>
-    <div>
-      <h1>Contacts</h1>
-      <p>GitHub:https://github.com/c0smi26</p>
-      <p>Discord:Arman(@c0smi26)</p>
-      <p>email:arman.wap3@gmail.com</p>
-    </div>
-    <div>
-      <h1>Education</h1>
-      <p>College of Radio Electronics named after P.N. Yablochkova (2016-2020)</p>
-      <p>Specialty: Computer systems and complexes</p>
-      <br />
-      <p>Saratov State Technical University named after Yu.A. Gagarin (2021-..)</p>
-      <p>Specialty: Information systems and technologies</p>
-    </div>
-    <div>
-      <h1>Code example:</h1>
-      <pre><code>
-        <span>function greet ()  {</span>
-            <span>return 'hello world!'</span>
-        <span>}</span>
-    </code></pre>
-    </div>
-    <div><h1>Estimated English level:A1</h1></div>
+    <header class="header">
+      <img src="./image/logo.ico" alt="image" width="40px />
+
+      <nav class="nav">
+        <a href="#about">About me</a>
+        <a href="#contacts">Contacts</a>
+        <a href="#education">Education</a>
+        <a href="#code">Code example</a>
+        <a href="#skills">Skills</a>
+        <a href="#cv">Training project</a>
+        <a href="#english">English level</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="about"></div>
+
+      <h2 class="h2" id="about">About me</h2>
+      <center>
+        <a href="https://github.com/c0smi26"><img src="./image/ara.jpg" alt="its me" /></a>
+      </center>
+      <p class="p">
+        Hey! My name is Arman. I was always interested in how the sites were created on which we all
+        sat every day. Every day I wondered how it all works. After the army, he began to study Java
+        Script, HTML and CSS. I took a short course, studied various html book or learn js
+        documentation
+      </p>
+
+      <div class="contacts" id="contacts">
+        <h2 class="h2">Contacts</h2>
+        <div class="contact">
+          <a href="https://github.com/c0smi26"
+            >GitHub<br />
+            github.com</a
+          >
+          <a href="https://discord.com/"
+            >Discord<br />
+            c0smk#7693</a
+          >
+          <a href="https://mail.google.com"
+            >Email<br />
+            arman.wap3@gmail.com</a
+          >
+          <a href="https://www.linkedin.com/in/arman-baimagambetov-35b780223/"
+            >Linkedin<br />
+            linkedin.com</a
+          >
+        </div>
+      </div>
+
+      <div class="education" id="education">
+        <h2 class="h2">Education</h2>
+        <p class="c">
+          College of Radio Electronics named after P.N. Yablochkova (2016-2020)<br />
+
+          Specialty: Computer systems and complexes
+        </p>
+        <p class="c">
+          Saratov State Technical University named after Yu.A. Gagarin (2021-..)<br />
+
+          Specialty: Information systems and technologies
+        </p>
+      </div>
+
+      <div class="code" id="code">
+        <h2 class="h2">Code example</h2>
+        <pre class="o"><code>
+        <span>function switchItUp(number){</span>
+            <span>return ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'][number];</span>
+            <span>}</span>
+        </code></pre>
+      </div>
+
+      <div class="skills" id="skills">
+        <h2 class="h2">Skills</h2>
+        <ul class="border">
+          <li>GIT</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS Basic</li>
+          <li>Webpack Basic</li>
+          <li>React Basic</li>
+        </ul>
+      </div>
+
+      <div class="cv" id="cv">
+        <h2 class="h2">Training project</h2>
+        <a class="c" href="https://c0smi26.github.io/rsschool-cv/cv">My CV</a>
+      </div>
+
+      <div class="english" id="english">
+        <h2 class="h2">English level</h2>
+        <h1 class="c">Estimated level:A1</h1>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <a href="https://github.com/c0smi26">c0smi26</a>
+        <h2>2021</h2>
+        <a href="https://rs.school/js/"><img src="./image/rs.png" /></a>
+      </div>
+    </footer>
   </body>
 </html>
