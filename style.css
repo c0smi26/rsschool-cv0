@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root {
+  --mainColor: #16665b;
+}
+
+:root {
+  --mainColo: #dd7669ab;
+}
+
+body {
+  background-color: rgb(226, 228, 203);
+  font-family: 'Pacifico', cursive;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background: rgb(47, 79, 79);
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.header a {
+  background: linear-gradient(to right, var(--mainColor) 0%, var(--mainColor) 5px, transparent 5px);
+  background-repeat: repeat-x;
+  background-size: 100%;
+  color: #000;
+  padding-left: 10px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.header a:hover {
+  background: linear-gradient(to right, var(--mainColor) 0%, var(--mainColor) 5px, transparent);
+}
+
+main img {
+  margin: 1px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+main img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.h2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 45px;
+  margin: 5px;
+  text-decoration: underline;
+}
+
+.p {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgb(32, 190, 190);
+  text-align: center;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.c {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.o {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: floralwhite;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: rgb(231, 135, 135);
+  text-align: center;
+  border-radius: 60px;
+  font-size: 30px;
+}
+
+.contact a {
+  background: linear-gradient(to bottom, var(--mainColo) 0%, var(--mainColo) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size 0.2s;
+  border-radius: 15px;
+}
+
+.contact a:hover {
+  background-size: 4px 100px;
+}
+
+.border {
+  list-style: none;
+  padding: 0;
+}
+.border li {
+  padding: 7px 60px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-left: 20px solid #382f2f;
+  font-size: 30px;
+}
+
+.footer a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(47, 79, 79);
+  align-items: center;
+  border-radius: 20px;
+  font-size: 20px;
+}
